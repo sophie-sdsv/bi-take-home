@@ -24,10 +24,10 @@ Table containing list of all the couriers that are integrated with Easyship
 | ----------------------- |
 | easyship\_courier\_id   |
 | name                    |
-| courier\_umbrella\_name |
+| umbrella\_name |
 | supported\_services     |
 | does\_pickup            |
-| does\_tracking          |
+| tracking_rating         |
 | is\_active              |
 
 Table containing shipment details
