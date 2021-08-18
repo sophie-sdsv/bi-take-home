@@ -95,6 +95,7 @@ Please reach out to HR if you do not have access
 
 
 - Business Team would like to know which couriers are used most on each day of the week. So the output will look like
+
 | day\_of\_week | courier\_name                  |
 | ------------- | ------------------------------ |
 | Monday        | FedEx - International Priority |
