@@ -40,8 +40,6 @@ Table containing shipment details
 | origin\_country\_id       |
 | destination\_country\_id  |
 | last\_status\_message\_id |
-| platform\_name            |
-| currency                  |
 | label\_paid\_at           |
 | total\_volumetric\_weight |
 
