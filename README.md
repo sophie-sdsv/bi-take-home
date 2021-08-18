@@ -40,8 +40,6 @@ Table containing shipment details
 | origin\_country\_id       |
 | destination\_country\_id  |
 | last\_status\_message\_id |
-| platform\_name            |
-| currency                  |
 | label\_paid\_at           |
 | total\_volumetric\_weight |
 
@@ -85,16 +83,20 @@ Data can be accessed on BigQuery
 : https://console.cloud.google.com/bigquery?project=easyship-staging-199203&p=easyship-staging-199203&d=data_test&page=dataset
 Please reach out to HR if you do not have access
 
-- Operations Team would like to know what are the top 3 performing couriers in last 3 months. Performance is calculated based on the number of shipments. 
+---
+
+**Scenario :**
+
+1. Operations Team would like to know what are the top 3 performing couriers in last 3 months. Performance is calculated based on the number of shipments. 
 
 
-- The pricing Team will be adjusting margin based on shipment volume.  Could you help them identify what was the % growth in terms of shipment last week compared to a week before? They would only like to see the result for these couriers umbrella names (FedEx and USPS). Week starts on Monday and ends on Sunday
+2. The pricing Team will be adjusting margin based on shipment volume.  Could you help them identify what was the % growth in terms of shipment last week compared to a week before? They would only like to see the result for these couriers umbrella names (FedEx and USPS). Week starts on Monday and ends on Sunday
 
 
-- Customer Success Team would like to know the average delivery times broken down by month and courier name for the last 3 months. Delivery time starts when a shipment has first status record event within (`In Transit to Customer, In Transit to Consolidation Center`) and Ends when there is first status record event within (`Delivered, Out for Delivery, Failed Delivery Attempt, Delivery Expected (End of Updates)`)
+3. Customer Success Team would like to know the average delivery times broken down by month and courier name for the last 3 months. Delivery time starts when a shipment has first status record event within (`In Transit to Customer, In Transit to Consolidation Center`) and Ends when there is first status record event within (`Delivered, Out for Delivery, Failed Delivery Attempt, Delivery Expected (End of Updates)`)
 
 
-- Business Team would like to know which couriers are used most on each day of the week. So the output will look like
+4. Business Team would like to know which couriers are used most on each day of the week. So the output will look like
 
 | day\_of\_week | courier\_name                  |
 | ------------- | ------------------------------ |
@@ -103,7 +105,7 @@ Please reach out to HR if you do not have access
 | Wednesday     | USPS - First Class             |
 
 
-- Marketing Team would like to know, on average how much time does it take for a client to get activated. Activation Time is calculated from onboarding to the first shipment made
+5. Marketing Team would like to know, on average how much time does it take for a client to get activated. Activation Time is calculated from onboarding to the first shipment made
 
 
 Good Luck and Feel free to reach out to HR in case of any queries.
